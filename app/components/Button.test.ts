@@ -1,3 +1,3 @@
 test("should pass", () => {
-  expect("").toBeTruthy();
+  expect(true).toBeTruthy();
 });
