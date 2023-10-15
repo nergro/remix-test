@@ -2,7 +2,8 @@
   "type": "module",
   "scripts": {
     "dev": "remix dev -c \"node server.mjs\"",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@remix-run/express": "^2.0.1",
